@@ -7,6 +7,9 @@ class CashRegister
     @discount = discount
     @items = []
   end
+
+  def self.add_item(item)
+    
 end
 
 #1. each register is a new set of transactions
