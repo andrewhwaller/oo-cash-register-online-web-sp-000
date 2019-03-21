@@ -9,7 +9,8 @@ class CashRegister
   end
 
   def self.add_item(item)
-    
+
+  end
 end
 
 #1. each register is a new set of transactions
