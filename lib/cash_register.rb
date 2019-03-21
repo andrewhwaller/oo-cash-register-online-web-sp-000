@@ -26,6 +26,11 @@ class CashRegister
   def total
     @total
   end
+
+  def void_last_transaction
+    total = total - last_transaction
+
+  end
 end
 
 #1. each register is a new set of transactions
