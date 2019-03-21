@@ -14,11 +14,11 @@ class CashRegister
   end
 
   def apply_discount
-    self.total = self.total - self.discount
+    @total = @total - self.discount
   end
 
   def items
-    self.items
+    @items
   end
 
   def total
