@@ -12,6 +12,10 @@ class CashRegister
     @items << item_title
     @total = @total + (item_price * item_quantity)
   end
+
+  def apply_discount
+    @total = @total - @discount
+  end
 end
 
 #1. each register is a new set of transactions
