@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :cash_register, :cash_register_with_discount
+  attr_accessor :items, :discount, :total, :last_transaction
 
 
   def initialize(cash_register)
@@ -14,4 +14,6 @@ end
 #4. adding items increases total for the transaction
 #5. items can have different quantities
 #6. discount is applied at the end of the transaction
-#7. 
+#7. returns error or success messages depending on init status
+#8. able to return array of all items scanned
+#9. able to void last item scanned
