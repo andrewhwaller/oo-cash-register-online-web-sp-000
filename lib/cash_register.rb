@@ -9,7 +9,7 @@ class CashRegister
   end
 
   def add_item(item_title, item_price, item_quantity=1)
-    @items << item_title
+    self.items << item_title
     self.total += (item_price * item_quantity)
   end
 
@@ -18,7 +18,7 @@ class CashRegister
   end
 
   def items
-    @items
+    self.items
   end
 
   def total
