@@ -20,6 +20,10 @@ class CashRegister
   def items
     @items
   end
+
+  def total
+    @total    
+  end
 end
 
 #1. each register is a new set of transactions
