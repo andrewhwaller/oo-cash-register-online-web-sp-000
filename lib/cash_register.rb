@@ -22,7 +22,7 @@ class CashRegister
   end
 
   def self.total
-    @total    
+    @total
   end
 end
 
