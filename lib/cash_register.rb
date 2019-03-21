@@ -16,6 +16,10 @@ class CashRegister
   def apply_discount
     @total = @total - @discount
   end
+
+  def items
+    @items
+  end
 end
 
 #1. each register is a new set of transactions
